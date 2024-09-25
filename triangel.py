@@ -1,12 +1,12 @@
 while True:
     try:
         n = int(input("Skriv ett positivt udda heltal: "))
-        if n%2 == 1 and n > 0:
+        if n%2 and n > 0:
             break
         else:
-            print("Inte ett positivt udda tal!")
+            print("\033[91m"+"Inte ett positivt udda tal!"+"\033[0m")
     except ValueError:
-        print("Inte ett heltal!")
+        print("\033[91m"+"Inte ett heltal!"+"\033[0m")
 
 def RightTriangle(n):
     print("\nDetta är en rätvinklig triangel:\n")
