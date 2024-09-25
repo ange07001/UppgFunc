@@ -14,7 +14,7 @@ def RightTriangle(n):
         print(" "*i + "*"*(n-i))
 
 def IsoscelesTriangle(n):
-    print("\nDetta är Isoscelers triangel:\n")
+    print("\nDetta är en likbent triangel:\n")
     for i in range(0,n,2):
         print(" "*(n//2-i//2) + "*"*(i+1))
 
